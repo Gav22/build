@@ -6,6 +6,7 @@ BOOTENV_FILE='sunxi.txt'
 UBOOT_TARGET_MAP=';;spl/sunxi-spl.bin u-boot.itb'
 BOOTSCRIPT='boot-sun50i-next.cmd:boot.cmd'
 LINUXFAMILY=sunxi64
+ASOUND_STATE='asound.state.sunxi-next'
 
 case $BRANCH in
 	legacy)
