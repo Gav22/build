@@ -107,6 +107,7 @@ create_desktop_package ()
 
 	# install logo for login screen
 	cp "${SRC}"/packages/blobs/desktop/icons/armbian.png "${destination}"/usr/share/pixmaps
+	cp "${SRC}"/packages/blobs/desktop/icons/ist* "${destination}"/usr/share/pixmaps
 
 	# install wallpapers
 	mkdir -p "${destination}"/usr/share/backgrounds/xfce/

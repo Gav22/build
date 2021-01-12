@@ -12,6 +12,7 @@
 #
 # Functions:
 # create_board_package
+# Create package linux-buster-root-current-pine64so
 
 create_board_package()
 {
@@ -46,7 +47,7 @@ create_board_package()
 	Package: linux-${RELEASE}-root-${DEB_BRANCH}${BOARD}
 	Version: $REVISION
 	Architecture: $ARCH
-	Maintainer: $MAINTAINER <$MAINTAINERMAIL>
+	Maintainer: Far South Networks <info@farsouthnet.com>
 	Installed-Size: 1
 	Section: kernel
 	Priority: optional
@@ -160,7 +161,7 @@ create_board_package()
 	         echo "RESUME=none" >> /etc/initramfs-tools/initramfs.conf
 	    fi
 
-	fi
+	fi	
 
 	EOF
 
